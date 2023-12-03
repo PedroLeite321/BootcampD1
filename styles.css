@@ -1,0 +1,42 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing:border-box;
+    overflow-x:hidden;
+    margin:0;
+    border:0;
+    padding:0;
+}
+.banner{
+    background: rgb(1,12,25);
+    background: linear-gradient(360deg, rgba(1,12,25,1) 0%, rgb(3, 45, 43) 70%, rgba(0,9,15,1) 100%);
+    
+}   
+.banner-content  {
+    min-height:500px;
+    object-fit: cover;
+    background-size:cover;
+    background-image: url("./assets/images/banner.png");
+    height:550px;
+    max-height:700px;
+    width:100vw;
+    text-align: center;
+}
+.logo   {
+    min-width:180px;
+    text-align:center;
+    
+}
+.logo img{
+    margin:28px;
+    width:15em;
+    padding:30px;
+    border-radius: 100%;
+    background-color:rgba(0, 0, 0, 0.3);
+    
+}
+.banner h1{
+    font-size:1.9em;
+    font-weight:900;
+    color:rgb(42, 99, 244);
+    text-transform:uppercase;
+}
