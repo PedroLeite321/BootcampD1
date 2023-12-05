@@ -75,6 +75,10 @@
     -webkit-text-fill-color: transparent;
     text-transform:uppercase;
 }
+.banner button:hover    {
+    font-size:0.95rem;
+    cursor:pointer;
+}
 #course-content {
     background: rgb(1,12,25);
     background: linear-gradient(360deg, rgba(1,12,25,1) 0%, rgb(0, 0, 0) 70%, rgba(0,9,15,1) 100%);
