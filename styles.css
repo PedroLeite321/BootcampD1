@@ -137,6 +137,7 @@
 #transform-world    {
     background-image:url('./assets/images/woman-code.png');
     height:400px;
+    font-size:1.4em;
     background-position:center;
     object-fit:cover;
     background-size: cover; 
@@ -145,14 +146,14 @@
     box-shadow:inset 0 0 0 1000px rgba(0, 0, 0, .5);
 }
 #transform-world p  {
-    padding-top:170px;
-    padding-left:45px;
+    padding-top:150px;
+    font-weight:900;
+    width:310px;
+    padding-left:40px;
     height:100%;
     color:#fff;
     font-size:1.5em;
-    background: linear-gradient( to bottom, rgb(130, 219, 235) 50%, rgb(13, 122, 205) 90%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    text-shadow:2px 3px #28f1f1;
     
 }
 #professional-challenges    {
